@@ -1,17 +1,23 @@
 import React from 'react';
 
-const Navbar = () => {
+const Chat = () => {
   return (
-    <nav className="bg-blue-600 p-5">
-      <div className="container mx-auto flex justify-center items-center">
-        <div className="space-x-4">
-          <a href="#" className="text-white hover:text-gray-300">Chat</a>
-          <a href="#" className="text-white hover:text-gray-300">Call</a>
-          <a href="#" className="text-white hover:text-gray-300">Facetime</a>
+    <div className="bg-gray-100 min-h-screen">
+      <h1 className="text-4xl font-bold bg-blue-600 text-center">Chat Page</h1>
+        <div className="flex space-x-3 bg-blue-600 p-5 justify-center">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Chat 
+          </button>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Call 
+          </button>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Face-time
+          </button>
         </div>
-      </div>
-    </nav>
+    </div>
+
   );
 };
 
-export default Navbar;
+export default Chat;
