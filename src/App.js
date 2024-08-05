@@ -17,6 +17,7 @@ import Maps from './pages/Maps';
 import Others from './pages/Others';
 import Profile from './pages/Profile';
 
+
 function App() {
   const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' });
 
