@@ -6,19 +6,16 @@ const Chat = () => {
       <h1 className="text-4xl font-bold bg-blue-600 text-center">SocialShare Page</h1>
         <div className="flex space-x-3 bg-blue-600 p-5 justify-center">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button 1
+           Text
           </button>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button 2
+           Music 
           </button>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button 3
+            Photo  
           </button>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button 4
-          </button>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button 5
+           Video 
           </button>
         </div>
     </div>
